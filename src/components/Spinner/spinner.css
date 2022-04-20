@@ -1,0 +1,27 @@
+.loaderparent {
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loaderimg {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    /* margin: 150px auto 0; */
+}
+
+.loadermsg {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #263238; 
+    height: 50px;
+    /* margin-bottom: 150px; */
+}
